@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name ="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">
+            @color/white
+        </item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/pingicon_foreground
+        </item>
+        <item name="postSplashScreenTheme">@style/Theme.App1JetpackCompose</item>
+    </style>
+
+    <style name="Theme.App1JetpackCompose" parent="android:Theme.Material.Light.NoActionBar" >
+        <!-- Window background that will be used for the splash screen -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- Set the theme color for status bar (optional) -->
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        </style>
+</resources>
